@@ -1,0 +1,126 @@
+iframe {display: block; margin-left: auto; margin-right: auto; margin-bottom: 30px;}
+h1 {text-align: center;}
+p {text-align: center; display: block; width: 50%; margin-left: auto; margin-right: auto; margin-bottom: 30px; margin-top: 30px; 
+    color: white; font-size: large
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+   
+body { background-image:  url(../images/field.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+li, a , button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.bottomlink {
+    width: 20%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    background: whitesmoke;
+    border: solid black;
+    
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    
+}
+
+.nav_links li a:hover{
+    color: teal;
+  
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color:  rgba(0, 136, 169,);
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+}
+
+.main_title {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-width: 5px;
+    border-color: whitesmoke;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+    position: 50%;
+    width: 40%;
+
+}
+
+.mainbody {
+    display: block; 
+    margin-left: 50px; 
+    margin-right: 50px;
+    background-color: rgba(72, 158, 173, 0.5);
+    margin-bottom: auto;
+}
+
+.intextlink {
+    color: plum; font-size: large;
+}
+
+.intextlink:hover {
+    color: blue;
+}
+
+.resources {
+    color: white; font-family: "Poppins", sans-serif; font-size: large;
+}
+
+.resources:hover {
+    color: blue; font-size: larger;
+}
+
+h3 {color: white;font-family: "Poppins", sans-serif; font-size: small;text-align: center;}
